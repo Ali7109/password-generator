@@ -53,7 +53,7 @@ body {
 }
 
 .input-box input {
-    color: rgba(255, 255, 255, 0.822);
+    color: rgb(255, 255, 255);
     background-color: black;
 }
 
