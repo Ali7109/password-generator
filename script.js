@@ -122,6 +122,7 @@ const generatePassword = () => {
 	let indicatorVisualCol = indicator.querySelector("span");
 	let indicatorStyle = indicator.style;
 
+	if (complexity > 100) complexity = 100;
 	indicatorStyle.width = `${complexity}%`;
 	if (complexity > 90) {
 		indicatorVisualCol.innerHTML = "Very Strong";
